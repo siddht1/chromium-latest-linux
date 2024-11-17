@@ -28,4 +28,4 @@ unzip $ZIP_FILE
 popd
 rm -f ./latest
 ln -s $REVISION/chrome-linux/ ./latest
-
+rm -f ./$REVISION/$ZIP_FILE
